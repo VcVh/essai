@@ -18,7 +18,7 @@ Our inpiration of this project comes from [this link](https://learn.sparkfun.com
 	*We used a red LED and a 1kohms resistor
 * Some jumper wires
 
-METTRE LES IMAGES
+![alt text](https://github.com/VcVh/essai/img.jpg "test")
 
 ## Configuration of your Raspberry
 
