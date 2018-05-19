@@ -13,9 +13,9 @@ Our inpiration of this project comes from [this link](https://learn.sparkfun.com
 	* with its power cable
 	* a microSD card with NOOBS OS installed on it
 * An accelerometer
-	*We used a LISD2H accelerometer but we will explain how to adapt the code to yours
+	* We used a LISD2H accelerometer but we will explain how to adapt the code to yours
 * An LED and its appropriate resistor
-	*We used a red LED and a 1kohms resistor
+	* We used a red LED and a 1kohms resistor
 * Some jumper wires
 * A USB camera
 
@@ -39,11 +39,11 @@ Once you're connected on your card, we will need to install some libraries. One 
 
 Type the following commands :
 * To install Open CV2 (Camera)
-	*sudo apt-get install python-opencv
-	*sudo apt-get install python-scipy
-	*sudo apt-get install ipython
+	* sudo apt-get install python-opencv
+	* sudo apt-get install python-scipy
+	* sudo apt-get install ipython
 *To install Xlsx Writer
-	*git clone https://github.com/jmcnamara/xlswriter.git
+	* git clone https://github.com/jmcnamara/xlswriter.git
 
 
 ## Build the circuit
