@@ -19,7 +19,7 @@ Our inpiration of this project comes from [this link](https://learn.sparkfun.com
 * Some jumper wires
 * A USB camera
 
-![alt text](https://github.com/VcVh/essai/blob/master/im.jpg "test")
+![alt text](https://github.com/VcVh/essai/blob/master/materiel.jpg "test")
 
 ## Configuration of your Raspberry
 
@@ -54,7 +54,7 @@ On the following picture, in green you can see the connections to do for the LED
 
 Don't forget to plug-in your USB camera in one of the slots of the Raspberry and the Ethernet cable.
 Here is a picture of the complete circuit :
-![alt text](https://github.com/VcVh/essai/blob/master/complet.jpg "test")
+![alt text](https://github.com/VcVh/essai/blob/master/im.jpg "test")
 
 ## Program it
 
@@ -66,13 +66,28 @@ Line 37: Check the address used by your accelerometer using the command :
 i2cdetect -y 1
 
 In our case here is the result:
-![alt text](https://github.com/VcVh/essai/blob/master/pinout.jpg "test")
+![alt text](https://github.com/VcVh/essai/blob/master/i2cdetect.jpg "test")
 
 Line 40; 70 to 83;100;102;104 : Refer to the datasheet of your accelerometer to complete accordingly.
 
 Line 43: Check on the Pinout figure that you connected the positive side of your LED on the corresponding GPIO (in our case it is GPIO 26).
 
 The Python code works as demonstrated by the following block diagram.
+
+
+In order to upload the code on the Raspberry Pi, you can use a software such as FileZilla.
+Here is how to configure it:
+
+![alt text](https://github.com/VcVh/essai/blob/master/Filezilla.jpg "test")
+
+Then you can just drag and drop your code on a folder in your Pi.
+
+To run it, go on Putty and search for the directory you put your code in using the line of command: cd "Insert_name_of_your_directory"
+
+Then type : sudo python casque.py
+
+
+
 
 
 
