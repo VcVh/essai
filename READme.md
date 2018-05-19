@@ -42,7 +42,7 @@ Type the following commands :
 	* sudo apt-get install python-opencv
 	* sudo apt-get install python-scipy
 	* sudo apt-get install ipython
-*To install Xlsx Writer
+* To install Xlsx Writer
 	* git clone https://github.com/jmcnamara/xlswriter.git
 
 
