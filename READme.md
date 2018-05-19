@@ -66,7 +66,7 @@ Line 37: Check the address used by your accelerometer using the command :
 i2cdetect -y 1
 
 In our case here is the result:
-![alt text](https://github.com/VcVh/essai/blob/master/i2cdetect.jpg "test")
+![alt text](https://github.com/VcVh/essai/blob/master/i2cdetect.JPG "test")
 
 Line 40; 70 to 83;100;102;104 : Refer to the datasheet of your accelerometer to complete accordingly.
 
@@ -78,7 +78,7 @@ The Python code works as demonstrated by the following block diagram.
 In order to upload the code on the Raspberry Pi, you can use a software such as FileZilla.
 Here is how to configure it:
 
-![alt text](https://github.com/VcVh/essai/blob/master/Filezilla.jpg "test")
+![alt text](https://github.com/VcVh/essai/blob/master/Filezilla.JPG "test")
 
 Then you can just drag and drop your code on a folder in your Pi.
 
